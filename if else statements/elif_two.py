@@ -1,6 +1,3 @@
-# nested if else statement in python
-# example
-
 # check the legal age of marriage for male and female in india
 
 print("Legal Age Of Marriage In India".upper());
