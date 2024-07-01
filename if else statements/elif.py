@@ -1,26 +1,27 @@
 # elif (else if) statment in python 
 # example
 
-maths = 30;
-science = 39;
+marksOfMaths = int(input("Enter Marks Of Maths : "));
+marksOfScience = int(input("Enter Marks Of Science : "));
+
+print();
 
 
-if (maths >= 90 and science >= 90):
+if (marksOfMaths >= 90 and marksOfScience >= 90):
     print("Grade A")
 
-elif(maths >= 75 and science >= 75):
+elif(marksOfMaths >= 75 and marksOfScience >= 75):
     print("Grade B");
 
-elif(maths >= 60 and science >= 60):
+elif(marksOfMaths >= 60 and marksOfScience >= 60):
     print("Grade C")
 
-elif(maths >= 40 and science >=40):
+elif(marksOfMaths >= 40 and marksOfScience >=40):
     print("Grade B")
 
-elif(maths < 40 and science < 40):
-    print("Failed! Not eligible for grades");
-    
+elif(marksOfMaths < 40 and marksOfScience < 40):
+    print("Grade F");
+
 else:
-    print("Result not declared till now");
- 
+    print("Result Not Declared")
 
