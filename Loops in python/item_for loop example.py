@@ -1,4 +1,4 @@
-# program for storing items in a cart section
+# simple program  for storing items in a variable with for loop 
 
 listOfitems = ["Deodrant", "Headphone", "Mouse", "USB"]
 
